@@ -1,10 +1,22 @@
+import { useState } from "react";
 export default function ContactMe() {
   const emailRegex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 
+  const [name, setName] = useState('');
+  const  [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const submitForm = () => {
+    alert('you submitted something!');
+    setName('');
+    setEmail('');
+    setMessage('');
+  }
+
   return (
-    <div>
-           <h1>Contact Me</h1>
-      <p className="py-6">
+    <div id='contact-me'>
+           <h1 class='text-xl text-center'>Contact Me</h1>
+      <p className="py-6 flex justify-center">
         Like what you see so far? Want to chat a bit about how I can help? Fill
         out the form below and I'll get back to you :)
       </p>
