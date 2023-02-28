@@ -23,7 +23,7 @@ export default function ContactMe() {
       <div class='flex justify-center'>
       <div class="form-control w-full max-w-xs">
         <label class="label">
-          <span class="label-text">Name?</span>
+          <span class="label-text">Name</span>
         </label>
         <input
           type="text"
@@ -31,7 +31,7 @@ export default function ContactMe() {
           class="input input-bordered w-full max-w-xs"
         />
         <label class="label">
-          <span class="label-text">Email?</span>
+          <span class="label-text">Email</span>
         </label>
         <input
           type="text"

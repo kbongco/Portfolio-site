@@ -1,6 +1,6 @@
 import { SiLinkedin } from 'react-icons/si'
 import { AiFillGithub } from "react-icons/ai";
-import { GrDocumentText } from 'react-icons/gr'
+import { HiDocumentText } from 'react-icons/hi'
 
 export default function AboutMe() {
   return (
@@ -13,7 +13,7 @@ export default function AboutMe() {
       <div class='flex justify-between max-w-sm '>
             <a href='http://github.com/kbongco'><AiFillGithub alt='github-link' style={{ fontSize: '2em', color: '#3CB371' }} /></a>
             <a href='https://www.linkedin.com/in/kathleen-bongco-11843197/'><SiLinkedin alt='linkedin-link' style={{ fontSize: '2em', color: '#3CB371' }} /></a>
-            <a href='https://docs.google.com/document/d/1qqsqbkLhXPJEDHC8BDghOnHxLbmKW0t73wzDdb3iruI/edit?usp=sharing'><GrDocumentText  alt='html' style={{ fontSize: '2em', color: '#3CB371' }} /></a>
+            <a href='https://docs.google.com/document/d/1qqsqbkLhXPJEDHC8BDghOnHxLbmKW0t73wzDdb3iruI/edit?usp=sharing'><HiDocumentText alt='download-resume' style={{ fontSize: '2em', color: '#3CB371' }} /></a>
       </div>
     </div>
   </div>

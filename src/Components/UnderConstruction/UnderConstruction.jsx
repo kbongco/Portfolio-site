@@ -6,7 +6,7 @@ export default function UnderConstruction() {
     <div className='px-8'> 
       <h1 className="text-xl font-bold">Under Construction</h1>
       <p className="py-6">The projects you are currently looking for is currently in another castle. In the meantime, you can check out some of the stuff I've built in the form of its code on my Github!</p>
-      <button className="btn btn-primary">Github</button>
+      <a href='http://github.com/kbongco'><button className="btn btn-primary">Github</button></a>
     </div>
   </div>
 </div>
