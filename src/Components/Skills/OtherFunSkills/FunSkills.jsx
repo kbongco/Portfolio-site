@@ -7,6 +7,7 @@ export default function ProgrammingSkills() {
         <li>Attention to detail</li>
         <li>Willingness to learn and pick things up incredibly quickly</li>
         <li>Project Management</li>
+        <li>Enthusiasm for all things dev!</li>
   </div>
 </div>
   )

@@ -3,12 +3,12 @@ import FunSkills from './OtherFunSkills/FunSkills'
 
 export default function Skills() {
   return (
-    <div id='skills'>
-      <h1 className='pb-1 text-center text-2xl'>Skills</h1>
-      <div className="flex sm:flex-col">
-          <ProgrammingSkills/>
+    <div id="skills">
+      <h1 className="pb-1 text-center text-2xl">Skills</h1>
+      <div className="flex sm:flex-col items-center">
+          <ProgrammingSkills />
         <div className="divider" />
-       <FunSkills/>
+          <FunSkills />
       </div>
     </div>
   );

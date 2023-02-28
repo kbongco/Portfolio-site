@@ -16,7 +16,7 @@ export default function ContactMe() {
   return (
     <div id='contact-me'>
            <h1 class='text-xl text-center'>Contact Me</h1>
-      <p className="py-6 flex justify-center">
+      <p className="py-6 px-8 flex justify-center">
         Like what you see so far? Want to chat a bit about how I can help? Fill
         out the form below and I'll get back to you :)
       </p>
